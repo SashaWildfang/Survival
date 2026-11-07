@@ -1,0 +1,24 @@
+name: Survival
+main: com.bearnation.survival.Survival
+version: 1.0
+api-version: 1.20
+
+commands:
+  sethome:
+    description: Set a home location
+  home:
+    description: Teleport to a home
+  homes:
+    description: List your homes
+  delhome:
+    description: Delete a home
+  tpa:
+    description: Request to teleport to a player
+  tpahere:
+    description: Request a player to teleport to you
+  tpaccept:
+    description: Accept a teleport request
+  tpdeny:
+    description: Deny a teleport request
+  locate:
+    description: Create a particle trail to a player
